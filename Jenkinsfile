@@ -12,6 +12,6 @@ node{
       sh "echo Pipeline Working Fine"
    }
    stage('Visual Code Git Commands'){
-      sh "Visual Code Git Commands Check"
+      sh "echo Visual Code Git Commands Check"
    }
 }
