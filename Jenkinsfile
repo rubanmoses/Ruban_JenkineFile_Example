@@ -11,4 +11,7 @@ node{
    stage('Show Success Message'){
       sh "echo Pipeline Working Fine"
    }
+   stage('Visual Code Git Commands'){
+      sh "Visual Code Git Commands Check"
+   }
 }
