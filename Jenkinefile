@@ -1,5 +1,0 @@
-node{
-	stage('Code CheckOut From Git'){
-		git credentialsId: 'RubanGitCredentials', url: 'https://github.com/rubanmoses/Ruban_JenkineFile_Example.git'
-	}
-}
